@@ -1,0 +1,5 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\piano\build\sim\run-1896b0e846e54013ad66e27769529c8b\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+PASS piano: all 8 tones, silence, multiple keys, reset
+C:\Users\sumin\fpga\piano\sim\tb_piano.sv:39: $finish called at 4796000 (1ps)
