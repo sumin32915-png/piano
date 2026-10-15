@@ -3,3 +3,11 @@ RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\piano\build\sim\run-189
 VCD info: dumpfile wave.vcd opened for output.
 PASS piano: all 8 tones, silence, multiple keys, reset
 C:\Users\sumin\fpga\piano\sim\tb_piano.sv:39: $finish called at 4796000 (1ps)
+
+[2] FAIL 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\piano\build\sim\run-908b2cd668664e75b98af4b868a6220c\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+FATAL: C:\Users\sumin\fpga\piano\sim\tb_piano.sv:22: note lookup
+       Time: 3147000  Scope: tb
+
+ERROR: 종료 코드 1: C:\Users\sumin\fpga\piano\build\sim\run-908b2cd668664e75b98af4b868a6220c\simulation.log

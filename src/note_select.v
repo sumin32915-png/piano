@@ -9,7 +9,7 @@ module note_select(input wire [7:0] key, output reg [31:0] frequency_hz);
             8'h20: frequency_hz=330;
             8'h10: frequency_hz=349;
             8'h08: frequency_hz=392;
-            8'h04: frequency_hz=440;
+            8'h04: frequency_hz=450;
             8'h02: frequency_hz=494;
             8'h01: frequency_hz=523;
             default: frequency_hz=0; // 무입력이나 여러 버튼 입력은 무음
