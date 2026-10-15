@@ -11,3 +11,14 @@ FATAL: C:\Users\sumin\fpga\piano\sim\tb_piano.sv:22: note lookup
        Time: 3147000  Scope: tb
 
 ERROR: 종료 코드 1: C:\Users\sumin\fpga\piano\build\sim\run-908b2cd668664e75b98af4b868a6220c\simulation.log
+
+[3] 원복 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\piano\build\sim\run-c8b9c8834c8345e585825aeb0dd2bb85\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+PASS piano: all 8 tones, silence, multiple keys, reset
+C:\Users\sumin\fpga\piano\sim\tb_piano.sv:39: $finish called at 4796000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\sumin\fpga\piano\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
+
